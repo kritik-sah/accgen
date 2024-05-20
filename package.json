@@ -1,0 +1,24 @@
+{
+  "name": "accgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node generator.js",
+    "node": "hardhat node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "crypto": "^1.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^6.12.0",
+    "twitter-api-sdk": "^1.2.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  }
+}
